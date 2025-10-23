@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 275,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "croptopia:milk_bottle"
+  },
+  "result": {
+    "count": 1,
+    "id": "greek_food:tzatziki"
+  }
+}

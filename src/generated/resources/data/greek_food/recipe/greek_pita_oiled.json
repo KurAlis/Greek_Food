@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "greek_food:greek_pita"
+    },
+    "O": {
+      "item": "croptopia:olive"
+    }
+  },
+  "pattern": [
+    "   ",
+    "GO ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "greek_food:greek_pita_oiled"
+  }
+}

@@ -1,0 +1,9 @@
+// 1.21.1	2025-09-19T22:51:55.3832882	Recipes
+331eba2b3f79ca06ef576f658ee2b986f310eb65 data/greek_food/advancement/recipes/food/greek_pita.json
+5bc548a86aab857ea6ad454535feed7158975e2f data/greek_food/advancement/recipes/food/greek_pita_oiled.json
+2e6d2493d30532e807c041fe615a965b0d58c699 data/greek_food/advancement/recipes/food/grilled_greek_pita_from_campfire.json
+0a30360f888e4b8c02903db1f0fa867c53b4b421 data/greek_food/advancement/recipes/food/tzatziki_from_smoking.json
+a75118e2c8d8812981ae9ef1a3211cd6a9ea0e43 data/greek_food/recipe/greek_pita.json
+2211f8d19ab451cf2de0c4deccdf3467e0aac3cf data/greek_food/recipe/greek_pita_oiled.json
+6d50f1cf91be98a9bfc4d8224ede90146be8bef4 data/greek_food/recipe/grilled_greek_pita_from_campfire.json
+486916a80de94312f4ba5e8c40aeccc6db3af498 data/greek_food/recipe/tzatziki_from_smoking.json

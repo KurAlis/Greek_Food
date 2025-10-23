@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "W": {
+      "item": "croptopia:flour"
+    }
+  },
+  "pattern": [
+    "WWW",
+    " B ",
+    "WWW"
+  ],
+  "result": {
+    "count": 3,
+    "id": "greek_food:greek_pita"
+  }
+}

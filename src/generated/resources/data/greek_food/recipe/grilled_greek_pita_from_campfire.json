@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "greek_food:greek_pita_oiled"
+  },
+  "result": {
+    "count": 1,
+    "id": "greek_food:grilled_greek_pita"
+  }
+}
