@@ -19,7 +19,33 @@ public class GreekFoodItemModels extends ItemModelProvider {
         simpleItem(ModItems.FROZEN_GREEK_PITA.get());
         simpleItem(ModItems.GREEK_PITA_OILED.get());
         simpleItem(ModItems.GRILLED_GREEK_PITA.get());
+        simpleItem(ModItems.GREEK_YOGHURT.get());
         simpleItem(ModItems.TZATZIKI.get());
+        simpleItem(ModItems.RAW_KEBAB.get());
+        simpleItem(ModItems.KEBAB.get());
+        simpleItem(ModItems.GYROS_CHICKEN.get());
+        simpleItem(ModItems.GYROS_BEEF.get());
+        simpleItem(ModItems.GYROS_CHICKEN_FULL.get());
+        simpleItem(ModItems.GYROS_BEEF_FULL.get());
+        simpleItem(ModItems.SPINACH_PIE.get());
+        simpleItem(ModItems.RAW_FRENCH_FRIES.get());
+        //SOUVLAKIA
+        simpleItem(ModItems.SOUVLAKI_APO_OLA.get());
+        simpleItem(ModItems.SOUVLAKI_APO_OLA_TZATZIKI.get());
+        simpleItem(ModItems.SOUVLAKI_XWRIS_KREMIDI.get());
+        simpleItem(ModItems.SOUVLAKI_XWRIS_KREMIDI_TZATZIKI.get());
+        simpleItem(ModItems.SOUVLAKI_XWRIS_KREMIDI_NTOMATA.get());
+        simpleItem(ModItems.SOUVLAKI_XWRIS_KREMIDI_NTOMATA_TZATZIKI.get());
+        simpleItem(ModItems.SOUVLAKI_XWRIS_KREMIDI_MAROULI.get());
+        simpleItem(ModItems.SOUVLAKI_XWRIS_KREMIDI_MAROULI_TZATZIKI.get());
+        simpleItem(ModItems.SOUVLAKI_XWRIS_NTOMATA.get());
+        simpleItem(ModItems.SOUVLAKI_XWRIS_NTOMATA_TZATZIKI.get());
+        simpleItem(ModItems.SOUVLAKI_XWRIS_NTOMATA_MAROULI.get());
+        simpleItem(ModItems.SOUVLAKI_XWRIS_NTOMATA_MAROULI_TZATZIKI.get());
+        simpleItem(ModItems.SOUVLAKI_XWRIS_MAROULI.get());
+        simpleItem(ModItems.SOUVLAKI_XWRIS_MAROULI_TZATZIKI.get());
+        simpleItem(ModItems.SOUVLAKI_XWRIS_TIPOTA.get());
+        simpleItem(ModItems.SOUVLAKI_XWRIS_TIPOTA_TZATZIKI.get());
     }
 
     private void simpleItem(Item item) {

@@ -10037,9 +10037,189 @@
     },
     "done": true
   },
-  "greek_food:recipes/food/tzatziki_from_smoking": {
+  "farmersdelight:main/craft_knife": {
     "criteria": {
-      "has_milk_bottle": "2025-09-19 22:52:35 +0300"
+      "iron_knife": "2025-10-23 17:12:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:creeper": "2025-10-23 21:53:33 +0300"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-10-23 21:53:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2025-10-23 21:53:33 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/gyros_chicken_full": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/spinach_pie": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_xwris_ntomata_marouli": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/raw_kebab3": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/raw_kebab2": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/gyros_warmer": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/greek_yoghurt_from_smoking": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_xwris_kremidi": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/kebab_from_campfire": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_xwris_kremidi_tzatziki": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_xwris_ntomata_tzatziki": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_xwris_kremidi_ntomata": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_apo_ola": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_xwris_kremidi_marouli_tzatziki": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_xwris_kremidi_marouli": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/tzatziki": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_xwris_marouli_tzatziki": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/french_fries_from_campfire": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/raw_kebab": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_xwris_ntomata_marouli_tzatziki": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_xwris_ntomata": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_xwris_kremidi_ntomata_tzatziki": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_xwris_tipota_tzatziki": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/gyros_beef_full": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_apo_ola_tzatziki": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_xwris_marouli": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
+    },
+    "done": true
+  },
+  "greek_food:recipes/food/souvlaki_xwris_tipota": {
+    "criteria": {
+      "has_the_recipe": "2025-10-24 00:24:44 +0300"
     },
     "done": true
   },

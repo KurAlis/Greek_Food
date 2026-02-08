@@ -27,15 +27,34 @@ public class ModCreativeTabs {
                         output.accept(ModItems.GREEK_PITA_OILED.get());
                         output.accept(ModItems.GRILLED_GREEK_PITA.get());
                         output.accept(ModItems.TZATZIKI.get());
-                        output.accept(ModItems.RAW_GYROS_CHICKEN.get());
-                        output.accept(ModItems.RAW_GYROS_BEEF.get());
                         output.accept(ModItems.RAW_KEBAB.get());
                         output.accept(ModItems.GYROS_CHICKEN.get());
                         output.accept(ModItems.GYROS_BEEF.get());
                         output.accept(ModItems.KEBAB.get());
+                        output.accept(ModItems.GYROS_CHICKEN_FULL.get());
+                        output.accept(ModItems.GYROS_BEEF_FULL.get());
+                        output.accept(ModItems.RAW_FRENCH_FRIES.get());
+                        //souvlakia
+                        output.accept(ModItems.SOUVLAKI_APO_OLA.get());
+                        output.accept(ModItems.SOUVLAKI_APO_OLA_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_XWRIS_KREMIDI.get());
+                        output.accept(ModItems.SOUVLAKI_XWRIS_KREMIDI_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_XWRIS_KREMIDI_MAROULI.get());
+                        output.accept(ModItems.SOUVLAKI_XWRIS_KREMIDI_MAROULI_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_XWRIS_KREMIDI_NTOMATA.get());
+                        output.accept(ModItems.SOUVLAKI_XWRIS_KREMIDI_NTOMATA_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_XWRIS_NTOMATA.get());
+                        output.accept(ModItems.SOUVLAKI_XWRIS_NTOMATA_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_XWRIS_NTOMATA_MAROULI.get());
+                        output.accept(ModItems.SOUVLAKI_XWRIS_NTOMATA_MAROULI_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_XWRIS_MAROULI.get());
+                        output.accept(ModItems.SOUVLAKI_XWRIS_MAROULI_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_XWRIS_TIPOTA.get());
+                        output.accept(ModItems.SOUVLAKI_XWRIS_TIPOTA_TZATZIKI.get());
                         // output.accept(ModItems.OTHER_FOOD.get());
 
                         // ===== BLOCKS =====
+                        output.accept(ModBlocks.GYROS_WARMER.get());
                         // output.accept(ModBlocks.OTHER_BLOCK.get());
 
                         // ===== TOOLS =====

@@ -2,3 +2,7 @@
 /effect give Dev minecraft:hunger 200 255 true
 /effect clear
 /recipe give Dev *
+/effect give Dev minecraft:hunger 10 255 true
+/recipe give Dev *
+/reload
+/recipe give Dev *

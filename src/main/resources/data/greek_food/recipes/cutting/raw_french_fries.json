@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "minecraft:potato" }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "greek_food:raw_french_fries",
+      "count": 2
+    }
+  ]
+}

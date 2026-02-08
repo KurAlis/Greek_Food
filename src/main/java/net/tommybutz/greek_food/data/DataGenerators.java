@@ -4,21 +4,25 @@ import net.neoforged.neoforge.data.event.GatherDataEvent;
 import net.tommybutz.greek_food.greek_food;
 
 public final class DataGenerators {
-    private DataGenerators() {} // prevent instantiation
+    private DataGenerators() {}
 
     public static void gatherData(GatherDataEvent event) {
-        var output = event.getGenerator().getPackOutput();
+        var generator = event.getGenerator();
+        var output = generator.getPackOutput();
         var existing = event.getExistingFileHelper();
+        var lookup = event.getLookupProvider();
 
+        // CLIENT-SIDE DATA
         if (event.includeClient()) {
-            event.getGenerator().addProvider(true, new GreekFoodItemModels(output, existing));
+            generator.addProvider(true, new GreekFoodItemModels(output, existing));
+            generator.addProvider(true, new ModBlockStateProvider(output, existing));
         }
 
-        event.getGenerator().addProvider(
-                event.includeServer(),
-                new GreekFoodCampfireRecipes(event.getGenerator().getPackOutput(), event.getLookupProvider())
-        );
-
-
+        // SERVER-SIDE DATA
+        if (event.includeServer()) {
+            generator.addProvider(true, new GreekFoodCampfireRecipes(output, lookup));
+            generator.addProvider(true, new ModBlockTagGenerator(output, lookup, existing));
+            generator.addProvider(true, ModLootTableProvider.create(output, lookup));
+        }
     }
 }
