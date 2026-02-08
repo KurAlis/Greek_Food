@@ -1,0 +1,184 @@
+{
+  "variants": {
+    "facing=east,meat_kind=beef,meat_level=0": {
+      "model": "greek_food:block/gyros_stand_empty",
+      "y": 90
+    },
+    "facing=east,meat_kind=beef,meat_level=1": {
+      "model": "greek_food:block/gyros_stand_small_beef",
+      "y": 90
+    },
+    "facing=east,meat_kind=beef,meat_level=2": {
+      "model": "greek_food:block/gyros_stand_medium_beef",
+      "y": 90
+    },
+    "facing=east,meat_kind=beef,meat_level=3": {
+      "model": "greek_food:block/gyros_stand_full_beef",
+      "y": 90
+    },
+    "facing=east,meat_kind=chicken,meat_level=0": {
+      "model": "greek_food:block/gyros_stand_empty",
+      "y": 90
+    },
+    "facing=east,meat_kind=chicken,meat_level=1": {
+      "model": "greek_food:block/gyros_stand_small_chicken",
+      "y": 90
+    },
+    "facing=east,meat_kind=chicken,meat_level=2": {
+      "model": "greek_food:block/gyros_stand_medium_chicken",
+      "y": 90
+    },
+    "facing=east,meat_kind=chicken,meat_level=3": {
+      "model": "greek_food:block/gyros_stand_full_chicken",
+      "y": 90
+    },
+    "facing=east,meat_kind=none,meat_level=0": {
+      "model": "greek_food:block/gyros_stand_empty",
+      "y": 90
+    },
+    "facing=east,meat_kind=none,meat_level=1": {
+      "model": "greek_food:block/gyros_stand_small_empty",
+      "y": 90
+    },
+    "facing=east,meat_kind=none,meat_level=2": {
+      "model": "greek_food:block/gyros_stand_medium_empty",
+      "y": 90
+    },
+    "facing=east,meat_kind=none,meat_level=3": {
+      "model": "greek_food:block/gyros_stand_full_empty",
+      "y": 90
+    },
+    "facing=north,meat_kind=beef,meat_level=0": {
+      "model": "greek_food:block/gyros_stand_empty"
+    },
+    "facing=north,meat_kind=beef,meat_level=1": {
+      "model": "greek_food:block/gyros_stand_small_beef"
+    },
+    "facing=north,meat_kind=beef,meat_level=2": {
+      "model": "greek_food:block/gyros_stand_medium_beef"
+    },
+    "facing=north,meat_kind=beef,meat_level=3": {
+      "model": "greek_food:block/gyros_stand_full_beef"
+    },
+    "facing=north,meat_kind=chicken,meat_level=0": {
+      "model": "greek_food:block/gyros_stand_empty"
+    },
+    "facing=north,meat_kind=chicken,meat_level=1": {
+      "model": "greek_food:block/gyros_stand_small_chicken"
+    },
+    "facing=north,meat_kind=chicken,meat_level=2": {
+      "model": "greek_food:block/gyros_stand_medium_chicken"
+    },
+    "facing=north,meat_kind=chicken,meat_level=3": {
+      "model": "greek_food:block/gyros_stand_full_chicken"
+    },
+    "facing=north,meat_kind=none,meat_level=0": {
+      "model": "greek_food:block/gyros_stand_empty"
+    },
+    "facing=north,meat_kind=none,meat_level=1": {
+      "model": "greek_food:block/gyros_stand_small_empty"
+    },
+    "facing=north,meat_kind=none,meat_level=2": {
+      "model": "greek_food:block/gyros_stand_medium_empty"
+    },
+    "facing=north,meat_kind=none,meat_level=3": {
+      "model": "greek_food:block/gyros_stand_full_empty"
+    },
+    "facing=south,meat_kind=beef,meat_level=0": {
+      "model": "greek_food:block/gyros_stand_empty",
+      "y": 180
+    },
+    "facing=south,meat_kind=beef,meat_level=1": {
+      "model": "greek_food:block/gyros_stand_small_beef",
+      "y": 180
+    },
+    "facing=south,meat_kind=beef,meat_level=2": {
+      "model": "greek_food:block/gyros_stand_medium_beef",
+      "y": 180
+    },
+    "facing=south,meat_kind=beef,meat_level=3": {
+      "model": "greek_food:block/gyros_stand_full_beef",
+      "y": 180
+    },
+    "facing=south,meat_kind=chicken,meat_level=0": {
+      "model": "greek_food:block/gyros_stand_empty",
+      "y": 180
+    },
+    "facing=south,meat_kind=chicken,meat_level=1": {
+      "model": "greek_food:block/gyros_stand_small_chicken",
+      "y": 180
+    },
+    "facing=south,meat_kind=chicken,meat_level=2": {
+      "model": "greek_food:block/gyros_stand_medium_chicken",
+      "y": 180
+    },
+    "facing=south,meat_kind=chicken,meat_level=3": {
+      "model": "greek_food:block/gyros_stand_full_chicken",
+      "y": 180
+    },
+    "facing=south,meat_kind=none,meat_level=0": {
+      "model": "greek_food:block/gyros_stand_empty",
+      "y": 180
+    },
+    "facing=south,meat_kind=none,meat_level=1": {
+      "model": "greek_food:block/gyros_stand_small_empty",
+      "y": 180
+    },
+    "facing=south,meat_kind=none,meat_level=2": {
+      "model": "greek_food:block/gyros_stand_medium_empty",
+      "y": 180
+    },
+    "facing=south,meat_kind=none,meat_level=3": {
+      "model": "greek_food:block/gyros_stand_full_empty",
+      "y": 180
+    },
+    "facing=west,meat_kind=beef,meat_level=0": {
+      "model": "greek_food:block/gyros_stand_empty",
+      "y": 270
+    },
+    "facing=west,meat_kind=beef,meat_level=1": {
+      "model": "greek_food:block/gyros_stand_small_beef",
+      "y": 270
+    },
+    "facing=west,meat_kind=beef,meat_level=2": {
+      "model": "greek_food:block/gyros_stand_medium_beef",
+      "y": 270
+    },
+    "facing=west,meat_kind=beef,meat_level=3": {
+      "model": "greek_food:block/gyros_stand_full_beef",
+      "y": 270
+    },
+    "facing=west,meat_kind=chicken,meat_level=0": {
+      "model": "greek_food:block/gyros_stand_empty",
+      "y": 270
+    },
+    "facing=west,meat_kind=chicken,meat_level=1": {
+      "model": "greek_food:block/gyros_stand_small_chicken",
+      "y": 270
+    },
+    "facing=west,meat_kind=chicken,meat_level=2": {
+      "model": "greek_food:block/gyros_stand_medium_chicken",
+      "y": 270
+    },
+    "facing=west,meat_kind=chicken,meat_level=3": {
+      "model": "greek_food:block/gyros_stand_full_chicken",
+      "y": 270
+    },
+    "facing=west,meat_kind=none,meat_level=0": {
+      "model": "greek_food:block/gyros_stand_empty",
+      "y": 270
+    },
+    "facing=west,meat_kind=none,meat_level=1": {
+      "model": "greek_food:block/gyros_stand_small_empty",
+      "y": 270
+    },
+    "facing=west,meat_kind=none,meat_level=2": {
+      "model": "greek_food:block/gyros_stand_medium_empty",
+      "y": 270
+    },
+    "facing=west,meat_kind=none,meat_level=3": {
+      "model": "greek_food:block/gyros_stand_full_empty",
+      "y": 270
+    }
+  }
+}

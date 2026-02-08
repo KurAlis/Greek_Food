@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "greek_food:gyros_warmer"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "greek_food:blocks/gyros_warmer"
+}

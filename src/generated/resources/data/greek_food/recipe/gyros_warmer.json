@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "C": {
+      "item": "minecraft:iron_bars"
+    },
+    "L": {
+      "item": "minecraft:cobblestone_slab"
+    },
+    "S": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "SCS",
+    "LLL"
+  ],
+  "result": {
+    "count": 2,
+    "id": "greek_food:gyros_warmer"
+  }
+}

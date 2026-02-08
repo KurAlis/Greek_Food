@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 225,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "greek_food:raw_french_fries"
+  },
+  "result": {
+    "count": 1,
+    "id": "croptopia:french_fries"
+  }
+}

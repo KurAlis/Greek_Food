@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:chain"
+    },
+    "W": {
+      "item": "minecraft:beef"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "WBW",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "greek_food:gyros_beef_full"
+  }
+}

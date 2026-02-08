@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:mutton"
+    },
+    "K": {
+      "item": "minecraft:kelp"
+    },
+    "O": {
+      "item": "croptopia:olive"
+    }
+  },
+  "pattern": [
+    "KKK",
+    "OCO",
+    "CCC"
+  ],
+  "result": {
+    "count": 4,
+    "id": "greek_food:raw_kebab"
+  }
+}

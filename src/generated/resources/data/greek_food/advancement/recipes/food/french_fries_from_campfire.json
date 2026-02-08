@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_french_fries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "greek_food:raw_french_fries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "greek_food:french_fries_from_campfire"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_french_fries"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "greek_food:french_fries_from_campfire"
+    ]
+  }
+}

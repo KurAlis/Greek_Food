@@ -1,0 +1,126 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 2025-10-23 22:45:26
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.block.state.StateHolder.getValue(StateHolder.java:95) ~[neoforge-21.1.204.jar%23193!/:?] {re:classloading,re:mixin}
+-- Mod loading issue --
+Details:
+	Mod file: <No mod information provided>
+	Failure message: An uncaught parallel processing error has occurred.
+		java.lang.IllegalArgumentException: Cannot get property BooleanProperty{name=cooked, clazz=class java.lang.Boolean, values=[true, false]} as it does not exist in Block{greek_food:gyros_warmer}
+	Mod version: <No mod information provided>
+	Mod issues URL: <No issues URL found>
+	Exception message: java.lang.IllegalArgumentException: Cannot get property BooleanProperty{name=cooked, clazz=class java.lang.Boolean, values=[true, false]} as it does not exist in Block{greek_food:gyros_warmer}
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.block.state.StateHolder.getValue(StateHolder.java:95) ~[neoforge-21.1.204.jar%23193!/:?] {re:classloading,re:mixin}
+	at TRANSFORMER/greek_food@0.0.1/net.tommybutz.greek_food.blocks.custom.GyrosWarmerBlock.isRandomlyTicking(GyrosWarmerBlock.java:109) ~[%23199!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.initCache(BlockBehaviour.java:555) ~[neoforge-21.1.204.jar%23193!/:?] {re:classloading,re:mixin}
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-32.1.2-jre.jar%23113!/:?] {}
+	at TRANSFORMER/neoforge@21.1.204/net.neoforged.neoforge.registries.NeoForgeRegistryCallbacks$BlockCallbacks.onBake(NeoForgeRegistryCallbacks.java:55) ~[neoforge-21.1.204.jar%23194!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.core.MappedRegistry.lambda$freeze$7(MappedRegistry.java:376) ~[neoforge-21.1.204.jar%23193!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.core.MappedRegistry.freeze(MappedRegistry.java:376) ~[neoforge-21.1.204.jar%23193!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at TRANSFORMER/neoforge@21.1.204/net.neoforged.neoforge.registries.GameData.lambda$freezeData$3(GameData.java:70) ~[neoforge-21.1.204.jar%23194!/:?] {re:classloading}
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?] {}
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?] {}
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?] {}
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?] {}
+	at TRANSFORMER/neoforge@21.1.204/net.neoforged.neoforge.registries.GameData.freezeData(GameData.java:70) ~[neoforge-21.1.204.jar%23194!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.204/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:55) ~[neoforge-21.1.204.jar%23194!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.8, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 262796056 bytes (250 MiB) / 578813952 bytes (552 MiB) up to 12826181632 bytes (12232 MiB)
+	CPUs: 32
+	Processor Vendor: GenuineIntel
+	Processor Name: 13th Gen Intel(R) Core(TM) i9-13900K
+	Identifier: Intel64 Family 6 Model 183 Stepping 1
+	Microarchitecture: Raptor Lake
+	Frequency (GHz): 3.00
+	Number of physical packages: 1
+	Number of physical CPUs: 24
+	Number of logical CPUs: 32
+	Graphics card #0 name: Intel(R) UHD Graphics 770
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 2048.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.101.6129
+	Graphics card #1 name: NVIDIA GeForce RTX 4080 SUPER
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 16376.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.15.8157
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.13
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 2.13
+	Memory slot #1 type: DDR4
+	Memory slot #2 capacity (MiB): 16384.00
+	Memory slot #2 clockSpeed (GHz): 2.13
+	Memory slot #2 type: DDR4
+	Virtual memory max (MiB): 64321.57
+	Virtual memory used (MiB): 59432.18
+	Swap memory total (MiB): 15407.25
+	Swap memory used (MiB): 185.28
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 111547.64, total: 952818.69
+	Space in storage for workdir (MiB): available: 111547.64, total: 952818.69
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.41.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.41.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.41.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		appleskin-neoforge-mc1.21-3.0.7.jar               |AppleSkin                     |appleskin                     |3.0.7+mc1.21        |Manifest: NOSIGNATURE
+		croptopia-415438-6788725.jar                      |Croptopia                     |croptopia                     |4.2.1               |Manifest: NOSIGNATURE
+		epherolib-885449-5872111.jar                      |EpheroLib                     |epherolib                     |1.2.0               |Manifest: NOSIGNATURE
+		farmers-delight-398521-6917256.jar                |Farmer's Delight              |farmersdelight                |1.2.9               |Manifest: NOSIGNATURE
+		main                                              |Greek Food                    |greek_food                    |0.0.1               |Manifest: NOSIGNATURE
+		Jade-1.21.1-NeoForge-15.10.3.jar                  |Jade                          |jade                          |15.10.3+neoforge    |Manifest: NOSIGNATURE
+		JadeAddons-1.21.1-NeoForge-6.1.0.jar              |Jade Addons                   |jadeaddons                    |6.1.0+neoforge      |Manifest: NOSIGNATURE
+		jei-1.21.1-neoforge-19.22.1.316.jar               |Just Enough Items             |jei                           |19.22.1.316         |Manifest: NOSIGNATURE
+		neoforge-21.1.204.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.204.jar                             |NeoForge                      |neoforge                      |21.1.204            |Manifest: NOSIGNATURE
+	Crash Report UUID: ab49dfc9-b89f-4771-9843-fac762330e90
+	FML: 4.0.41
+	NeoForge: 21.1.204

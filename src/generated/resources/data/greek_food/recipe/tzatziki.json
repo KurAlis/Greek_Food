@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "croptopia:cucumber"
+    },
+    "Y": {
+      "item": "greek_food:greek_yoghurt"
+    }
+  },
+  "pattern": [
+    "   ",
+    "YCY",
+    "   "
+  ],
+  "result": {
+    "count": 3,
+    "id": "greek_food:tzatziki"
+  }
+}
