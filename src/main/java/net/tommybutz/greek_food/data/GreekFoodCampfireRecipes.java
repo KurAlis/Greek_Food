@@ -167,9 +167,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .unlockedBy("has_iron_ingot", has(Items.IRON_INGOT))
                 .save(output, id("gyros_warmer"));
 
-        //SOUVLAKIA
+        //CHICKEN SOUVLAKIA
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_APO_OLA.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_APO_OLA.get(), 1)
                 .pattern("KNM")
                 .pattern("P C")
                 .pattern("XXX")
@@ -180,9 +180,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('X', Items.PAPER)
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_apo_ola"));
+                .save(output, id("souvlaki_chicken_apo_ola"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_APO_OLA_TZATZIKI.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_APO_OLA_TZATZIKI.get(), 1)
                 .pattern("KNM")
                 .pattern("PTC")
                 .pattern("XXX")
@@ -194,9 +194,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .define('T', ModItems.TZATZIKI.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_apo_ola_tzatziki"));
+                .save(output, id("souvlaki_chicken_apo_ola_tzatziki"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_XWRIS_KREMIDI.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_XWRIS_KREMIDI.get(), 1)
                 .pattern(" NM")
                 .pattern("P C")
                 .pattern("XXX")
@@ -206,9 +206,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('X', Items.PAPER)
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_xwris_kremidi"));
+                .save(output, id("souvlaki_chicken_xwris_kremidi"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_XWRIS_KREMIDI_TZATZIKI.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_XWRIS_KREMIDI_TZATZIKI.get(), 1)
                 .pattern(" NM")
                 .pattern("PTC")
                 .pattern("XXX")
@@ -219,9 +219,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .define('T', ModItems.TZATZIKI.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_xwris_kremidi_tzatziki"));
+                .save(output, id("souvlaki_chicken_xwris_kremidi_tzatziki"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_XWRIS_KREMIDI_NTOMATA.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_XWRIS_KREMIDI_NTOMATA.get(), 1)
                 .pattern("  M")
                 .pattern("P C")
                 .pattern("XXX")
@@ -230,9 +230,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('X', Items.PAPER)
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_xwris_kremidi_ntomata"));
+                .save(output, id("souvlaki_chicken_xwris_kremidi_ntomata"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_XWRIS_KREMIDI_NTOMATA_TZATZIKI.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_XWRIS_KREMIDI_NTOMATA_TZATZIKI.get(), 1)
                 .pattern("  M")
                 .pattern("PTC")
                 .pattern("XXX")
@@ -242,9 +242,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .define('T', ModItems.TZATZIKI.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_xwris_kremidi_ntomata_tzatziki"));
+                .save(output, id("souvlaki_chicken_xwris_kremidi_ntomata_tzatziki"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_XWRIS_KREMIDI_MAROULI.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_XWRIS_KREMIDI_MAROULI.get(), 1)
                 .pattern(" N ")
                 .pattern("P C")
                 .pattern("XXX")
@@ -253,9 +253,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('X', Items.PAPER)
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_xwris_kremidi_marouli"));
+                .save(output, id("souvlaki_chicken_xwris_kremidi_marouli"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_XWRIS_KREMIDI_MAROULI_TZATZIKI.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_XWRIS_KREMIDI_MAROULI_TZATZIKI.get(), 1)
                 .pattern(" N ")
                 .pattern("PTC")
                 .pattern("XXX")
@@ -265,9 +265,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .define('T', ModItems.TZATZIKI.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_xwris_kremidi_marouli_tzatziki"));
+                .save(output, id("souvlaki_chicken_xwris_kremidi_marouli_tzatziki"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_XWRIS_NTOMATA.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_XWRIS_NTOMATA.get(), 1)
                 .pattern("K M")
                 .pattern("P C")
                 .pattern("XXX")
@@ -277,9 +277,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('X', Items.PAPER)
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_xwris_ntomata"));
+                .save(output, id("souvlaki_chicken_xwris_ntomata"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_XWRIS_NTOMATA_TZATZIKI.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_XWRIS_NTOMATA_TZATZIKI.get(), 1)
                 .pattern("K M")
                 .pattern("PTC")
                 .pattern("XXX")
@@ -290,9 +290,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .define('T', ModItems.TZATZIKI.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_xwris_ntomata_tzatziki"));
+                .save(output, id("souvlaki_chicken_xwris_ntomata_tzatziki"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_XWRIS_NTOMATA_MAROULI.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_XWRIS_NTOMATA_MAROULI.get(), 1)
                 .pattern("K  ")
                 .pattern("P C")
                 .pattern("XXX")
@@ -301,9 +301,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('X', Items.PAPER)
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_xwris_ntomata_marouli"));
+                .save(output, id("souvlaki_chicken_xwris_ntomata_marouli"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_XWRIS_NTOMATA_MAROULI_TZATZIKI.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_XWRIS_NTOMATA_MAROULI_TZATZIKI.get(), 1)
                 .pattern("K  ")
                 .pattern("PTC")
                 .pattern("XXX")
@@ -313,9 +313,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .define('T', ModItems.TZATZIKI.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_xwris_ntomata_marouli_tzatziki"));
+                .save(output, id("souvlaki_chicken_xwris_ntomata_marouli_tzatziki"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_XWRIS_MAROULI.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_XWRIS_MAROULI.get(), 1)
                 .pattern("KN ")
                 .pattern("P C")
                 .pattern("XXX")
@@ -325,9 +325,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('X', Items.PAPER)
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_xwris_marouli"));
+                .save(output, id("souvlaki_chicken_xwris_marouli"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_XWRIS_MAROULI_TZATZIKI.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_XWRIS_MAROULI_TZATZIKI.get(), 1)
                 .pattern("KN ")
                 .pattern("PTC")
                 .pattern("XXX")
@@ -338,9 +338,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .define('T', ModItems.TZATZIKI.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_xwris_marouli_tzatziki"));
+                .save(output, id("souvlaki_chicken_xwris_marouli_tzatziki"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_XWRIS_TIPOTA.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_XWRIS_TIPOTA.get(), 1)
                 .pattern("   ")
                 .pattern("P C")
                 .pattern("XXX")
@@ -348,9 +348,9 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('X', Items.PAPER)
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_xwris_tipota"));
+                .save(output, id("souvlaki_chicken_xwris_tipota"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_XWRIS_TIPOTA_TZATZIKI.get(), 1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_CHICKEN_XWRIS_TIPOTA_TZATZIKI.get(), 1)
                 .pattern("   ")
                 .pattern("PTC")
                 .pattern("XXX")
@@ -359,7 +359,201 @@ public class GreekFoodCampfireRecipes extends RecipeProvider {
                 .define('C', ModItems.GYROS_CHICKEN.get())
                 .define('T', ModItems.TZATZIKI.get())
                 .unlockedBy("has_paper", has(Items.PAPER))
-                .save(output, id("souvlaki_xwris_tipota_tzatziki"));
+                .save(output, id("souvlaki_chicken_xwris_tipota_tzatziki"));
+
+        //BEEF SOUVLAKIA
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_APO_OLA.get(), 1)
+                .pattern("KNM")
+                .pattern("P C")
+                .pattern("XXX")
+                .define('K', vectorwing.farmersdelight.common.registry.ModItems.ONION.get())
+                .define('N', vectorwing.farmersdelight.common.registry.ModItems.TOMATO.get())
+                .define('M', croptopia("lettuce"))
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_apo_ola"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_APO_OLA_TZATZIKI.get(), 1)
+                .pattern("KNM")
+                .pattern("PTC")
+                .pattern("XXX")
+                .define('K', vectorwing.farmersdelight.common.registry.ModItems.ONION.get())
+                .define('N', vectorwing.farmersdelight.common.registry.ModItems.TOMATO.get())
+                .define('M', croptopia("lettuce"))
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .define('T', ModItems.TZATZIKI.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_apo_ola_tzatziki"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_XWRIS_KREMIDI.get(), 1)
+                .pattern(" NM")
+                .pattern("P C")
+                .pattern("XXX")
+                .define('N', vectorwing.farmersdelight.common.registry.ModItems.TOMATO.get())
+                .define('M', croptopia("lettuce"))
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_xwris_kremidi"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_XWRIS_KREMIDI_TZATZIKI.get(), 1)
+                .pattern(" NM")
+                .pattern("PTC")
+                .pattern("XXX")
+                .define('N', vectorwing.farmersdelight.common.registry.ModItems.TOMATO.get())
+                .define('M', croptopia("lettuce"))
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .define('T', ModItems.TZATZIKI.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_xwris_kremidi_tzatziki"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_XWRIS_KREMIDI_NTOMATA.get(), 1)
+                .pattern("  M")
+                .pattern("P C")
+                .pattern("XXX")
+                .define('M', croptopia("lettuce"))
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_xwris_kremidi_ntomata"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_XWRIS_KREMIDI_NTOMATA_TZATZIKI.get(), 1)
+                .pattern("  M")
+                .pattern("PTC")
+                .pattern("XXX")
+                .define('M', croptopia("lettuce"))
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .define('T', ModItems.TZATZIKI.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_xwris_kremidi_ntomata_tzatziki"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_XWRIS_KREMIDI_MAROULI.get(), 1)
+                .pattern(" N ")
+                .pattern("P C")
+                .pattern("XXX")
+                .define('N', vectorwing.farmersdelight.common.registry.ModItems.TOMATO.get())
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_xwris_kremidi_marouli"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_XWRIS_KREMIDI_MAROULI_TZATZIKI.get(), 1)
+                .pattern(" N ")
+                .pattern("PTC")
+                .pattern("XXX")
+                .define('N', vectorwing.farmersdelight.common.registry.ModItems.TOMATO.get())
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .define('T', ModItems.TZATZIKI.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_xwris_kremidi_marouli_tzatziki"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_XWRIS_NTOMATA.get(), 1)
+                .pattern("K M")
+                .pattern("P C")
+                .pattern("XXX")
+                .define('K', vectorwing.farmersdelight.common.registry.ModItems.ONION.get())
+                .define('M', croptopia("lettuce"))
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_xwris_ntomata"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_XWRIS_NTOMATA_TZATZIKI.get(), 1)
+                .pattern("K M")
+                .pattern("PTC")
+                .pattern("XXX")
+                .define('K', vectorwing.farmersdelight.common.registry.ModItems.ONION.get())
+                .define('M', croptopia("lettuce"))
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .define('T', ModItems.TZATZIKI.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_xwris_ntomata_tzatziki"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_XWRIS_NTOMATA_MAROULI.get(), 1)
+                .pattern("K  ")
+                .pattern("P C")
+                .pattern("XXX")
+                .define('K', vectorwing.farmersdelight.common.registry.ModItems.ONION.get())
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_xwris_ntomata_marouli"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_XWRIS_NTOMATA_MAROULI_TZATZIKI.get(), 1)
+                .pattern("K  ")
+                .pattern("PTC")
+                .pattern("XXX")
+                .define('K', vectorwing.farmersdelight.common.registry.ModItems.ONION.get())
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .define('T', ModItems.TZATZIKI.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_xwris_ntomata_marouli_tzatziki"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_XWRIS_MAROULI.get(), 1)
+                .pattern("KN ")
+                .pattern("P C")
+                .pattern("XXX")
+                .define('K', vectorwing.farmersdelight.common.registry.ModItems.ONION.get())
+                .define('N', vectorwing.farmersdelight.common.registry.ModItems.TOMATO.get())
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_xwris_marouli"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_XWRIS_MAROULI_TZATZIKI.get(), 1)
+                .pattern("KN ")
+                .pattern("PTC")
+                .pattern("XXX")
+                .define('K', vectorwing.farmersdelight.common.registry.ModItems.ONION.get())
+                .define('N', vectorwing.farmersdelight.common.registry.ModItems.TOMATO.get())
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .define('T', ModItems.TZATZIKI.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_xwris_marouli_tzatziki"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_XWRIS_TIPOTA.get(), 1)
+                .pattern("   ")
+                .pattern("P C")
+                .pattern("XXX")
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_xwris_tipota"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SOUVLAKI_BEEF_XWRIS_TIPOTA_TZATZIKI.get(), 1)
+                .pattern("   ")
+                .pattern("PTC")
+                .pattern("XXX")
+                .define('P', ModItems.GRILLED_GREEK_PITA.get())
+                .define('X', Items.PAPER)
+                .define('C', ModItems.GYROS_BEEF.get())
+                .define('T', ModItems.TZATZIKI.get())
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(output, id("souvlaki_beef_xwris_tipota_tzatziki"));
 
     }
 

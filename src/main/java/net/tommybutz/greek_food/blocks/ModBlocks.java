@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.tommybutz.greek_food.blocks.custom.CuttingBoardBlock;
 import net.tommybutz.greek_food.blocks.custom.GyrosWarmerBlock;
 import net.tommybutz.greek_food.greek_food;
 import net.tommybutz.greek_food.init.ModItems;
@@ -26,8 +27,15 @@ public class ModBlocks {
     public static final Supplier<GyrosWarmerBlock> GYROS_WARMER = registerBlock(
             "gyros_warmer", () -> new GyrosWarmerBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BREWING_STAND)
                     .strength(0.5F)          // fairly fragile, like a brewing stand
-                    .noOcclusion()           // doesn’t block vision
+                    .noOcclusion()           // doesn't block vision
                     .sound(SoundType.STONE)  // or WOOD, depending on your design
+                    ));
+
+    public static final Supplier<CuttingBoardBlock> CUTTING_BOARD = registerBlock(
+            "cutting_board", () -> new CuttingBoardBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)
+                    .strength(0.5F)
+                    .noOcclusion()
+                    .sound(SoundType.WOOD)
                     ));
 
 

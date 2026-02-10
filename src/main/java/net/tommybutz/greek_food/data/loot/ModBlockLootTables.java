@@ -18,6 +18,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.GYROS_WARMER.get());
+        this.dropSelf(ModBlocks.CUTTING_BOARD.get());
     }
 
     @Override

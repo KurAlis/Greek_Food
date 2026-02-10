@@ -133,9 +133,9 @@ public class ModItems {
                     )
             ));
 
-    //SOUVLAKIA
-    public static final Supplier<Item> SOUVLAKI_APO_OLA =
-            ITEMS.register("souvlaki_apo_ola", () -> new Item(
+    //CHICKEN SOUVLAKIA
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_APO_OLA =
+            ITEMS.register("souvlaki_chicken_apo_ola", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(14)        // hunger restored (1=half-bar)
@@ -144,8 +144,8 @@ public class ModItems {
                     )
             ));
 
-    public static final Supplier<Item> SOUVLAKI_APO_OLA_TZATZIKI =
-            ITEMS.register("souvlaki_apo_ola_tzatziki", () -> new Item(
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_APO_OLA_TZATZIKI =
+            ITEMS.register("souvlaki_chicken_apo_ola_tzatziki", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(15)        // hunger restored (1=half-bar)
@@ -154,8 +154,8 @@ public class ModItems {
                     )
             ));
 
-    public static final Supplier<Item> SOUVLAKI_XWRIS_KREMIDI =
-            ITEMS.register("souvlaki_xwris_kremidi", () -> new Item(
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_XWRIS_KREMIDI =
+            ITEMS.register("souvlaki_chicken_xwris_kremidi", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(12)        // hunger restored (1=half-bar)
@@ -164,8 +164,8 @@ public class ModItems {
                     )
             ));
 
-    public static final Supplier<Item> SOUVLAKI_XWRIS_KREMIDI_TZATZIKI =
-            ITEMS.register("souvlaki_xwris_kremidi_tzatziki", () -> new Item(
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_XWRIS_KREMIDI_TZATZIKI =
+            ITEMS.register("souvlaki_chicken_xwris_kremidi_tzatziki", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(13)        // hunger restored (1=half-bar)
@@ -174,8 +174,8 @@ public class ModItems {
                     )
             ));
 
-    public static final Supplier<Item> SOUVLAKI_XWRIS_NTOMATA =
-            ITEMS.register("souvlaki_xwris_ntomata", () -> new Item(
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_XWRIS_NTOMATA =
+            ITEMS.register("souvlaki_chicken_xwris_ntomata", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(12)        // hunger restored (1=half-bar)
@@ -184,8 +184,8 @@ public class ModItems {
                     )
             ));
 
-    public static final Supplier<Item> SOUVLAKI_XWRIS_NTOMATA_TZATZIKI =
-            ITEMS.register("souvlaki_xwris_ntomata_tzatziki", () -> new Item(
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_XWRIS_NTOMATA_TZATZIKI =
+            ITEMS.register("souvlaki_chicken_xwris_ntomata_tzatziki", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(13)        // hunger restored (1=half-bar)
@@ -194,8 +194,8 @@ public class ModItems {
                     )
             ));
 
-    public static final Supplier<Item> SOUVLAKI_XWRIS_MAROULI =
-            ITEMS.register("souvlaki_xwris_marouli", () -> new Item(
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_XWRIS_MAROULI =
+            ITEMS.register("souvlaki_chicken_xwris_marouli", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(12)        // hunger restored (1=half-bar)
@@ -204,8 +204,8 @@ public class ModItems {
                     )
             ));
 
-    public static final Supplier<Item> SOUVLAKI_XWRIS_MAROULI_TZATZIKI =
-            ITEMS.register("souvlaki_xwris_marouli_tzatziki", () -> new Item(
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_XWRIS_MAROULI_TZATZIKI =
+            ITEMS.register("souvlaki_chicken_xwris_marouli_tzatziki", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(13)        // hunger restored (1=half-bar)
@@ -214,8 +214,8 @@ public class ModItems {
                     )
             ));
 
-    public static final Supplier<Item> SOUVLAKI_XWRIS_KREMIDI_MAROULI =
-            ITEMS.register("souvlaki_xwris_kremidi_marouli", () -> new Item(
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_XWRIS_KREMIDI_MAROULI =
+            ITEMS.register("souvlaki_chicken_xwris_kremidi_marouli", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(12)        // hunger restored (1=half-bar)
@@ -224,8 +224,8 @@ public class ModItems {
                     )
             ));
 
-    public static final Supplier<Item> SOUVLAKI_XWRIS_KREMIDI_MAROULI_TZATZIKI =
-            ITEMS.register("souvlaki_xwris_kremidi_marouli_tzatziki", () -> new Item(
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_XWRIS_KREMIDI_MAROULI_TZATZIKI =
+            ITEMS.register("souvlaki_chicken_xwris_kremidi_marouli_tzatziki", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(13)        // hunger restored (1=half-bar)
@@ -234,8 +234,8 @@ public class ModItems {
                     )
             ));
 
-    public static final Supplier<Item> SOUVLAKI_XWRIS_KREMIDI_NTOMATA =
-            ITEMS.register("souvlaki_xwris_kremidi_ntomata", () -> new Item(
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_XWRIS_KREMIDI_NTOMATA =
+            ITEMS.register("souvlaki_chicken_xwris_kremidi_ntomata", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(12)        // hunger restored (1=half-bar)
@@ -244,8 +244,8 @@ public class ModItems {
                     )
             ));
 
-    public static final Supplier<Item> SOUVLAKI_XWRIS_KREMIDI_NTOMATA_TZATZIKI =
-            ITEMS.register("souvlaki_xwris_kremidi_ntomata_tzatziki", () -> new Item(
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_XWRIS_KREMIDI_NTOMATA_TZATZIKI =
+            ITEMS.register("souvlaki_chicken_xwris_kremidi_ntomata_tzatziki", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(13)        // hunger restored (1=half-bar)
@@ -254,8 +254,8 @@ public class ModItems {
                     )
             ));
 
-    public static final Supplier<Item> SOUVLAKI_XWRIS_NTOMATA_MAROULI =
-            ITEMS.register("souvlaki_xwris_ntomata_marouli", () -> new Item(
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_XWRIS_NTOMATA_MAROULI =
+            ITEMS.register("souvlaki_chicken_xwris_ntomata_marouli", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(12)        // hunger restored (1=half-bar)
@@ -264,8 +264,8 @@ public class ModItems {
                     )
             ));
 
-    public static final Supplier<Item> SOUVLAKI_XWRIS_NTOMATA_MAROULI_TZATZIKI =
-            ITEMS.register("souvlaki_xwris_ntomata_marouli_tzatziki", () -> new Item(
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_XWRIS_NTOMATA_MAROULI_TZATZIKI =
+            ITEMS.register("souvlaki_chicken_xwris_ntomata_marouli_tzatziki", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(13)        // hunger restored (1=half-bar)
@@ -274,8 +274,8 @@ public class ModItems {
                     )
             ));
 
-    public static final Supplier<Item> SOUVLAKI_XWRIS_TIPOTA =
-            ITEMS.register("souvlaki_xwris_tipota", () -> new Item(
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_XWRIS_TIPOTA =
+            ITEMS.register("souvlaki_chicken_xwris_tipota", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(10)        // hunger restored (1=half-bar)
@@ -284,8 +284,8 @@ public class ModItems {
                     )
             ));
 
-    public static final Supplier<Item> SOUVLAKI_XWRIS_TIPOTA_TZATZIKI =
-            ITEMS.register("souvlaki_xwris_tipota_tzatziki", () -> new Item(
+    public static final Supplier<Item> SOUVLAKI_CHICKEN_XWRIS_TIPOTA_TZATZIKI =
+            ITEMS.register("souvlaki_chicken_xwris_tipota_tzatziki", () -> new Item(
                     new Item.Properties().food(
                             new FoodProperties.Builder()
                                     .nutrition(11)        // hunger restored (1=half-bar)
@@ -294,6 +294,167 @@ public class ModItems {
                     )
             ));
 
+
+    //BEEF SOUVLAKIA
+    public static final Supplier<Item> SOUVLAKI_BEEF_APO_OLA =
+            ITEMS.register("souvlaki_beef_apo_ola", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(14)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.3f) // saturation multiplier
+                                    .build()
+                    )
+            ));
+
+    public static final Supplier<Item> SOUVLAKI_BEEF_APO_OLA_TZATZIKI =
+            ITEMS.register("souvlaki_beef_apo_ola_tzatziki", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(15)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.4f) // saturation multiplier
+                                    .build()
+                    )
+            ));
+
+    public static final Supplier<Item> SOUVLAKI_BEEF_XWRIS_KREMIDI =
+            ITEMS.register("souvlaki_beef_xwris_kremidi", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(12)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.1f) // saturation multiplier
+                                    .build()
+                    )
+            ));
+
+    public static final Supplier<Item> SOUVLAKI_BEEF_XWRIS_KREMIDI_TZATZIKI =
+            ITEMS.register("souvlaki_beef_xwris_kremidi_tzatziki", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(13)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.2f) // saturation multiplier
+                                    .build()
+                    )
+            ));
+
+    public static final Supplier<Item> SOUVLAKI_BEEF_XWRIS_NTOMATA =
+            ITEMS.register("souvlaki_beef_xwris_ntomata", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(12)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.1f) // saturation multiplier
+                                    .build()
+                    )
+            ));
+
+    public static final Supplier<Item> SOUVLAKI_BEEF_XWRIS_NTOMATA_TZATZIKI =
+            ITEMS.register("souvlaki_beef_xwris_ntomata_tzatziki", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(13)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.2f) // saturation multiplier
+                                    .build()
+                    )
+            ));
+
+    public static final Supplier<Item> SOUVLAKI_BEEF_XWRIS_MAROULI =
+            ITEMS.register("souvlaki_beef_xwris_marouli", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(12)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.1f) // saturation multiplier
+                                    .build()
+                    )
+            ));
+
+    public static final Supplier<Item> SOUVLAKI_BEEF_XWRIS_MAROULI_TZATZIKI =
+            ITEMS.register("souvlaki_beef_xwris_marouli_tzatziki", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(13)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.2f) // saturation multiplier
+                                    .build()
+                    )
+            ));
+
+    public static final Supplier<Item> SOUVLAKI_BEEF_XWRIS_KREMIDI_MAROULI =
+            ITEMS.register("souvlaki_beef_xwris_kremidi_marouli", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(12)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.1f) // saturation multiplier
+                                    .build()
+                    )
+            ));
+
+    public static final Supplier<Item> SOUVLAKI_BEEF_XWRIS_KREMIDI_MAROULI_TZATZIKI =
+            ITEMS.register("souvlaki_beef_xwris_kremidi_marouli_tzatziki", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(13)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.2f) // saturation multiplier
+                                    .build()
+                    )
+            ));
+
+    public static final Supplier<Item> SOUVLAKI_BEEF_XWRIS_KREMIDI_NTOMATA =
+            ITEMS.register("souvlaki_beef_xwris_kremidi_ntomata", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(12)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.1f) // saturation multiplier
+                                    .build()
+                    )
+            ));
+
+    public static final Supplier<Item> SOUVLAKI_BEEF_XWRIS_KREMIDI_NTOMATA_TZATZIKI =
+            ITEMS.register("souvlaki_beef_xwris_kremidi_ntomata_tzatziki", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(13)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.2f) // saturation multiplier
+                                    .build()
+                    )
+            ));
+
+    public static final Supplier<Item> SOUVLAKI_BEEF_XWRIS_NTOMATA_MAROULI =
+            ITEMS.register("souvlaki_beef_xwris_ntomata_marouli", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(12)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.1f) // saturation multiplier
+                                    .build()
+                    )
+            ));
+
+    public static final Supplier<Item> SOUVLAKI_BEEF_XWRIS_NTOMATA_MAROULI_TZATZIKI =
+            ITEMS.register("souvlaki_beef_xwris_ntomata_marouli_tzatziki", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(13)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.2f) // saturation multiplier
+                                    .build()
+                    )
+            ));
+
+    public static final Supplier<Item> SOUVLAKI_BEEF_XWRIS_TIPOTA =
+            ITEMS.register("souvlaki_beef_xwris_tipota", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(10)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.1f) // saturation multiplier
+                                    .build()
+                    )
+            ));
+
+    public static final Supplier<Item> SOUVLAKI_BEEF_XWRIS_TIPOTA_TZATZIKI =
+            ITEMS.register("souvlaki_beef_xwris_tipota_tzatziki", () -> new Item(
+                    new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(11)        // hunger restored (1=half-bar)
+                                    .saturationModifier(1.2f) // saturation multiplier
+                                    .build()
+                    )
+            ));
 
 
     public static final Supplier<Item> GYROS_CHICKEN_FULL =

@@ -26,6 +26,7 @@ public class ModCreativeTabs {
                         output.accept(ModItems.FROZEN_GREEK_PITA.get());
                         output.accept(ModItems.GREEK_PITA_OILED.get());
                         output.accept(ModItems.GRILLED_GREEK_PITA.get());
+                        output.accept(ModItems.GREEK_YOGHURT.get());
                         output.accept(ModItems.TZATZIKI.get());
                         output.accept(ModItems.RAW_KEBAB.get());
                         output.accept(ModItems.GYROS_CHICKEN.get());
@@ -33,28 +34,47 @@ public class ModCreativeTabs {
                         output.accept(ModItems.KEBAB.get());
                         output.accept(ModItems.GYROS_CHICKEN_FULL.get());
                         output.accept(ModItems.GYROS_BEEF_FULL.get());
+                        output.accept(ModItems.SPINACH_PIE.get());
                         output.accept(ModItems.RAW_FRENCH_FRIES.get());
                         //souvlakia
-                        output.accept(ModItems.SOUVLAKI_APO_OLA.get());
-                        output.accept(ModItems.SOUVLAKI_APO_OLA_TZATZIKI.get());
-                        output.accept(ModItems.SOUVLAKI_XWRIS_KREMIDI.get());
-                        output.accept(ModItems.SOUVLAKI_XWRIS_KREMIDI_TZATZIKI.get());
-                        output.accept(ModItems.SOUVLAKI_XWRIS_KREMIDI_MAROULI.get());
-                        output.accept(ModItems.SOUVLAKI_XWRIS_KREMIDI_MAROULI_TZATZIKI.get());
-                        output.accept(ModItems.SOUVLAKI_XWRIS_KREMIDI_NTOMATA.get());
-                        output.accept(ModItems.SOUVLAKI_XWRIS_KREMIDI_NTOMATA_TZATZIKI.get());
-                        output.accept(ModItems.SOUVLAKI_XWRIS_NTOMATA.get());
-                        output.accept(ModItems.SOUVLAKI_XWRIS_NTOMATA_TZATZIKI.get());
-                        output.accept(ModItems.SOUVLAKI_XWRIS_NTOMATA_MAROULI.get());
-                        output.accept(ModItems.SOUVLAKI_XWRIS_NTOMATA_MAROULI_TZATZIKI.get());
-                        output.accept(ModItems.SOUVLAKI_XWRIS_MAROULI.get());
-                        output.accept(ModItems.SOUVLAKI_XWRIS_MAROULI_TZATZIKI.get());
-                        output.accept(ModItems.SOUVLAKI_XWRIS_TIPOTA.get());
-                        output.accept(ModItems.SOUVLAKI_XWRIS_TIPOTA_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_APO_OLA.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_APO_OLA_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_XWRIS_KREMIDI.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_XWRIS_KREMIDI_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_XWRIS_KREMIDI_MAROULI.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_XWRIS_KREMIDI_MAROULI_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_XWRIS_KREMIDI_NTOMATA.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_XWRIS_KREMIDI_NTOMATA_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_XWRIS_NTOMATA.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_XWRIS_NTOMATA_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_XWRIS_NTOMATA_MAROULI.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_XWRIS_NTOMATA_MAROULI_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_XWRIS_MAROULI.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_XWRIS_MAROULI_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_XWRIS_TIPOTA.get());
+                        output.accept(ModItems.SOUVLAKI_CHICKEN_XWRIS_TIPOTA_TZATZIKI.get());
+
+                        output.accept(ModItems.SOUVLAKI_BEEF_APO_OLA.get());
+                        output.accept(ModItems.SOUVLAKI_BEEF_APO_OLA_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_BEEF_XWRIS_KREMIDI.get());
+                        output.accept(ModItems.SOUVLAKI_BEEF_XWRIS_KREMIDI_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_BEEF_XWRIS_KREMIDI_MAROULI.get());
+                        output.accept(ModItems.SOUVLAKI_BEEF_XWRIS_KREMIDI_MAROULI_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_BEEF_XWRIS_KREMIDI_NTOMATA.get());
+                        output.accept(ModItems.SOUVLAKI_BEEF_XWRIS_KREMIDI_NTOMATA_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_BEEF_XWRIS_NTOMATA.get());
+                        output.accept(ModItems.SOUVLAKI_BEEF_XWRIS_NTOMATA_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_BEEF_XWRIS_NTOMATA_MAROULI.get());
+                        output.accept(ModItems.SOUVLAKI_BEEF_XWRIS_NTOMATA_MAROULI_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_BEEF_XWRIS_MAROULI.get());
+                        output.accept(ModItems.SOUVLAKI_BEEF_XWRIS_MAROULI_TZATZIKI.get());
+                        output.accept(ModItems.SOUVLAKI_BEEF_XWRIS_TIPOTA.get());
+                        output.accept(ModItems.SOUVLAKI_BEEF_XWRIS_TIPOTA_TZATZIKI.get());
                         // output.accept(ModItems.OTHER_FOOD.get());
 
                         // ===== BLOCKS =====
                         output.accept(ModBlocks.GYROS_WARMER.get());
+                        output.accept(ModBlocks.CUTTING_BOARD.get());
                         // output.accept(ModBlocks.OTHER_BLOCK.get());
 
                         // ===== TOOLS =====

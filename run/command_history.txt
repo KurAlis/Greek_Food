@@ -6,3 +6,6 @@
 /recipe give Dev *
 /reload
 /recipe give Dev *
+/weather clear
+/recipe give Dev greek_food:french_fries_from_campfire
+/give Dev greek_food:cutting_board
