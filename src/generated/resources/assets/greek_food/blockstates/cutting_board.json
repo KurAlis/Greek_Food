@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=east,item=none": {
+      "model": "greek_food:block/cutting_board_empty",
+      "y": 90
+    },
+    "facing=east,item=potato": {
+      "model": "greek_food:block/cutting_board_potato",
+      "y": 90
+    },
+    "facing=east,item=raw_french_fries": {
+      "model": "greek_food:block/cutting_board_raw_french_fries",
+      "y": 90
+    },
+    "facing=north,item=none": {
+      "model": "greek_food:block/cutting_board_empty"
+    },
+    "facing=north,item=potato": {
+      "model": "greek_food:block/cutting_board_potato"
+    },
+    "facing=north,item=raw_french_fries": {
+      "model": "greek_food:block/cutting_board_raw_french_fries"
+    },
+    "facing=south,item=none": {
+      "model": "greek_food:block/cutting_board_empty",
+      "y": 180
+    },
+    "facing=south,item=potato": {
+      "model": "greek_food:block/cutting_board_potato",
+      "y": 180
+    },
+    "facing=south,item=raw_french_fries": {
+      "model": "greek_food:block/cutting_board_raw_french_fries",
+      "y": 180
+    },
+    "facing=west,item=none": {
+      "model": "greek_food:block/cutting_board_empty",
+      "y": 270
+    },
+    "facing=west,item=potato": {
+      "model": "greek_food:block/cutting_board_potato",
+      "y": 270
+    },
+    "facing=west,item=raw_french_fries": {
+      "model": "greek_food:block/cutting_board_raw_french_fries",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "greek_food:gyros_beef"
+    },
+    "K": {
+      "item": "farmersdelight:onion"
+    },
+    "N": {
+      "item": "farmersdelight:tomato"
+    },
+    "P": {
+      "item": "greek_food:grilled_greek_pita"
+    },
+    "T": {
+      "item": "greek_food:tzatziki"
+    },
+    "X": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "KN ",
+    "PTC",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "greek_food:souvlaki_beef_xwris_marouli_tzatziki"
+  }
+}
