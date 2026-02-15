@@ -14,7 +14,7 @@ This is a mod that adds many popular Greek foods. Mostly Greek Souvlaki but i am
 |-----------|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | Forge     | ❌    |   ❌   |   ❌  |   🟨   |   ❌  |   ➖   |   ➖  |   ➖   |
 | Neoforge  | ➖    |   ➖   |   ➖  |   ➖   |   ❌  |   ✅   |   ❌  |   ❌   |
-| Fabric    | ❌    |   ❌   |   ❌  |   🟨   |   ❌  |   🟨   |   ❌  |   ❌   |
+| Fabric    | ❌    |   ❌   |   ❌  |   🟨   |   ❌  |   ✅   |   ❌  |   ❌   |
 | Quilt     | ❌    |   ❌   |   ❌  |   ❌   |   ❌  |   ❌   |   ❌  |   ❌   |
 
 ❌ = Not supported
